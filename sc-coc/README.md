@@ -1,11 +1,19 @@
 # Build
 
-## get srouce code
+## install async-gamequery-lib
 ```
-git clone --recursive <url>
+git clone https://github.com/John-Chan/async-gamequery-lib.git
+cd async-gamequery-lib
+git checkout -b coc-api-fix origin/coc-api-fix
+mvn clean install
 ```
 
-## update with submodules
+## get source code
+```
+git clone --recursive https://github.com/shufork/coc-projects-aggregator.git
+```
+
+if your need update source code,run
 ```
 git submodule update --recursive --remote
 ```
@@ -40,7 +48,7 @@ see shell script in `it-ops/mini/linux-docker`.
 
 # Test
 
-- rabbit mq management: http:\\your-ip-address:15672.(default user/password :guest/guest)
+- rabbit mq management: http://your-ip-address:15672.(default user/password :guest/guest)
 - eureka : http://your-ip-address:8761/
 - admin(Spring Boot) : http://your-ip-address:18002/
 - swagger ui: http://your-ip-address:service-port/swagger-ui.html
