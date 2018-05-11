@@ -11,3 +11,4 @@
 - sc-coc.coc-player  : 18600
 - sc-coc.coc-clan    : 18700
 - sc-coc.coc-discovery  : 18800
+- sc-coc.coc-war    : 18900
