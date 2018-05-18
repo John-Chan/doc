@@ -12,3 +12,5 @@
 - sc-coc.coc-clan    : 18700
 - sc-coc.coc-discovery  : 18800
 - sc-coc.coc-war    : 18900
+- edge.auth    : 20100
+- edge.api     : 20200
